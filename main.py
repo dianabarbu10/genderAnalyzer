@@ -14,3 +14,10 @@ print("Me prediction should be female and is: "+str(predictionMe))
 
 predictionDad = clf.predict([[175,80,42]])
 print("Mada prediction should be male and is: "+str(predictionDad))
+
+predictionLaurasIubi = clf.predict([[165,57,39]])
+print("Laura's iubi prediction should be male and is: "+str(predictionLaurasIubi))
+
+
+predictionGicuTest = clf.predict([[175,150,37]])
+print("Gicu's test prediction should be female and is: "+str(predictionGicuTest))
